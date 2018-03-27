@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import os.log
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    // MARK: Properties
+    
+    @IBOutlet weak var appName: UITextField!
+    
+    
+    var app: App?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        appName.delegate = self
+        
+        if let app = app {
+            appName.text = app.name
+        }
     }
 
     override func didReceiveMemoryWarning() {
