@@ -14,7 +14,7 @@ class App {
     var startDate, endDate, header, message: String?
     
     //MARK: Initialisation
-    init?(name: String, startDate: String, endDate: String, header: String, message: String) {
+    init?(name: String) {
 
     
     // Initialisation should fail if there is no name
@@ -24,10 +24,7 @@ class App {
     
     //Initialise stored properties
     self.name = name
-    self.startDate = startDate
-    self.endDate = endDate
-    self.header = header
-    self.message = message
+    
     
 }
 }
