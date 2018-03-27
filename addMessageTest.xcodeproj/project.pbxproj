@@ -14,6 +14,9 @@
 		DE5A6B3A206A2A500098BC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5A6B38206A2A500098BC75 /* LaunchScreen.storyboard */; };
 		DE5A6B45206A2A500098BC75 /* addMessageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A6B44206A2A500098BC75 /* addMessageTestTests.swift */; };
 		DE5A6B50206A2A500098BC75 /* addMessageTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A6B4F206A2A500098BC75 /* addMessageTestUITests.swift */; };
+		DE5A6B5E206A2F580098BC75 /* AppCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A6B5D206A2F580098BC75 /* AppCellTableViewCell.swift */; };
+		DE5A6B60206A32D60098BC75 /* AppCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A6B5F206A32D60098BC75 /* AppCellTableViewController.swift */; };
+		DE5A6B62206A37100098BC75 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5A6B61206A37100098BC75 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DE5A6B4B206A2A500098BC75 /* addMessageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addMessageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5A6B4F206A2A500098BC75 /* addMessageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMessageTestUITests.swift; sourceTree = "<group>"; };
 		DE5A6B51206A2A500098BC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5A6B5D206A2F580098BC75 /* AppCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCellTableViewCell.swift; sourceTree = "<group>"; };
+		DE5A6B5F206A32D60098BC75 /* AppCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCellTableViewController.swift; sourceTree = "<group>"; };
+		DE5A6B61206A37100098BC75 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				DE5A6B2F206A2A500098BC75 /* AppDelegate.swift */,
 				DE5A6B31206A2A500098BC75 /* ViewController.swift */,
+				DE5A6B5D206A2F580098BC75 /* AppCellTableViewCell.swift */,
+				DE5A6B5F206A32D60098BC75 /* AppCellTableViewController.swift */,
+				DE5A6B61206A37100098BC75 /* App.swift */,
 				DE5A6B33206A2A500098BC75 /* Main.storyboard */,
 				DE5A6B36206A2A500098BC75 /* Assets.xcassets */,
 				DE5A6B38206A2A500098BC75 /* LaunchScreen.storyboard */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE5A6B32206A2A500098BC75 /* ViewController.swift in Sources */,
+				DE5A6B5E206A2F580098BC75 /* AppCellTableViewCell.swift in Sources */,
+				DE5A6B60206A32D60098BC75 /* AppCellTableViewController.swift in Sources */,
+				DE5A6B62206A37100098BC75 /* App.swift in Sources */,
 				DE5A6B30206A2A500098BC75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
